@@ -1,0 +1,31 @@
+.gallery_backsplash {
+    position: absolute;
+    scale: 3;
+    transform: rotate(90deg);
+    z-index: -1;
+}
+
+#gallery {
+    margin: auto;
+    position: relative;
+    left: 5%;
+}
+.gallery {
+    position: absolute;
+    width: 90%;
+    overflow-y: scroll;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: 3px 3px 6px black;
+}
+
+::-webkit-scrollbar {
+    overflow: hidden;
+}
+
+.gallery_store {
+    width: 150px;
+    height: 150px;
+    background: green;
+}

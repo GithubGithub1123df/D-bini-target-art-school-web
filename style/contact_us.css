@@ -1,0 +1,114 @@
+.contact_backsplash {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    mix-blend-mode: hard-light;
+    z-index: -1;
+}
+
+
+#contact_us ul{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+#contact_us ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#contact_us ul li img {
+    width: 60px;
+    height: 60px;
+}
+
+#contact_us ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: "agbalumo";
+    color: white;
+
+}
+#contact_us ul li span {
+    width: 20px;
+}
+
+.phones {
+    width: 100%;
+    height: 100px;
+    background: #3a000050;
+    position: absolute;
+    bottom: 0;
+}
+
+.phones h3 {
+    font-size: 2rem;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: "agbalumo";
+    color: white;
+
+}
+
+@media(max-width:768px){ 
+    #contact_us ul{
+        width: 70%;
+    }
+    
+    #contact_us ul li img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #contact_us ul li a {
+        font-size: 1.5rem;
+    }
+    #contact_us ul li span {
+        width: 0px;
+    }
+    
+    .phones h3 {
+        font-size: 1.5rem;
+    }
+    
+}
+@media(max-width:415px){ 
+    #contact_us ul{
+        width: 100%;
+    }
+    
+    #contact_us ul li img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #contact_us ul li a {
+        font-size: 1.5rem;
+    }
+    #contact_us ul li span {
+        width: 0px;
+    }
+    .phones {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .phones h3 {
+        font-size: 1.3rem;
+
+    }
+    
+}
